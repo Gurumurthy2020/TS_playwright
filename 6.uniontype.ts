@@ -1,7 +1,7 @@
 let mark: string | number;
 //union type variable is a variable which can store multiple type of values
 
-function abs(demo): string | number{
+function abs(demo): any{
     if (typeof(demo) === 'string') {
         console.log('hello'+ (demo) + 'this is string');
         return typeof(demo);

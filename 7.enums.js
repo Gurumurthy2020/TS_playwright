@@ -27,4 +27,5 @@ var Status;
 })(Status || (Status = {}));
 console.log(Status.Active);
 console.log(Status.Deactive);
+// +1 it will add from previous
 console.log(Status.Pending);
