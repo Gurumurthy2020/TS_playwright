@@ -9,7 +9,7 @@ let schoolbus:Array<any>=["sd",12.33,45,true];
 
 // multitype array
 
-let sdf:(string | number )[]=["gur",23.45];
+let sdf:(string | number )[]=["gur",23.45 ];
 let plm:Array<boolean | string >=[true,true,"asd"];
 
 // array declaration and intiation

@@ -3,12 +3,12 @@
 //non intilized first and intialized second 
 var Browser;
 (function (Browser) {
-    Browser[Browser["Chrome"] = 5] = "Chrome";
+    Browser[Browser["Safari"] = 0] = "Safari";
+    Browser[Browser["chrome"] = 5] = "chrome";
     Browser[Browser["Edge"] = 9] = "Edge";
     Browser[Browser["Ie"] = -5] = "Ie";
-    Browser[Browser["Safari"] = -4] = "Safari";
 })(Browser || (Browser = {}));
-console.log(Browser.Safari);
+//console.log(Browser.Safari);
 console.log(Browser);
 //string
 var Environment;

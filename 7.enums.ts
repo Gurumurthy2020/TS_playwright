@@ -3,12 +3,13 @@
 //numeric
 //non intilized first and intialized second 
 enum Browser{
-    Chrome=5,
+    Safari,
+    chrome=5,
     Edge=9,
-    Ie=-5,
-    Safari
+    Ie=-5
+    
 }
-console.log(Browser.Safari);
+//console.log(Browser.Safari);
 console.log(Browser);
 
 //string
