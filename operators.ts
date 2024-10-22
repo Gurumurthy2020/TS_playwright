@@ -10,3 +10,9 @@ console.log(b%a);
 let aa=5;
 var bb=5;
 console.log(aa === bb);
+
+//Ternary oprators
+
+let age=61;
+let msg=age>60 ? "senior citizen":"adult";
+console.log(msg);
